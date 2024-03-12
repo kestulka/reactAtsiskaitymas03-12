@@ -1,0 +1,28 @@
+/* Table container styles */
+.table-container {
+  text-align: center;
+}
+
+/* Table styles */
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: #87ceeb;
+}
+
+/* Table header styles */
+.table-header {
+  text-align: center;
+  background-color: #87ceeb;
+  color: black;
+  font-family: Arial;
+  font-size: 2em;
+}
+
+/* Table cell styles */
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
