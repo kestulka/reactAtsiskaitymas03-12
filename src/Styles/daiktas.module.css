@@ -1,0 +1,11 @@
+/* Daiktas container styles */
+.daiktas-container {
+  width: 80%;
+  margin: auto;
+  background-color: #87ceeb;
+}
+
+/* Daiktas paragraph styles */
+.daiktas {
+  color: black;
+}
