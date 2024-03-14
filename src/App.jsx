@@ -1,6 +1,8 @@
 import React from "react";
 import Table from "./Components/Table";
 import Tvenkinys from "../src/Components/Tvenkinys";
+import Jura from "./Components/Jura"
+import data from "./data"
 
 const App = () => {
   return (
@@ -8,6 +10,7 @@ const App = () => {
       <>
         <Table />
         <Tvenkinys />
+        <Jura data={data} />
       </>
     </div>
   );

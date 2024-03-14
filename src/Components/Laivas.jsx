@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Laivas() {
+function Laivas(props) {
   return (
-    <div>Laivas</div>
+    <div>
+      <p>{props.name} (type: "car")</p>
+    </div>
   )
 }
 

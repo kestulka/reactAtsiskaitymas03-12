@@ -1,0 +1,22 @@
+/* jura.module.css */
+.container {
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .tableContainer {
+    margin-bottom: 20px;
+  }
+  
+  .componentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Add additional styles as needed */
+  

@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Valtis() {
+function Valtis(props) {
   return (
-    <div>Valtis</div>
+    <div>
+      <p>{props.name} (type: "man")</p>
+    </div>
   )
 }
 

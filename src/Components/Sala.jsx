@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Sala() {
+function Sala(props) {
   return (
-    <div>Sala</div>
+    <div>
+      <p>{props.name} (type: "animal")</p>
+    </div>
   )
 }
 
