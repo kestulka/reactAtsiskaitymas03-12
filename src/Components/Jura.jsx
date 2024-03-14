@@ -2,10 +2,13 @@ import React from 'react'
 import Laivas from "./Laivas"
 import Sala from "./Sala"
 import Valtis from "./Valtis"
+import styles from "../Styles/jura.module.css"
 
 function Jura(props) {
   return (
-    <div>
+    <>
+    <h2 className={styles["jura-container-header"]}>Jura</h2>
+    <div className={styles["jura-container"]}>
       {props.data.map((item) => {
         switch (item.type) {
           case "man":
@@ -21,6 +24,7 @@ function Jura(props) {
         }
       })}
     </div>
+    </>
   )
 }
 

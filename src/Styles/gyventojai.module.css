@@ -1,0 +1,23 @@
+.gyventojai-container{
+    width: 80%;
+  margin: auto;
+  background-color: #87ceeb;
+  color: black;
+    text-align: center;
+}
+
+.green {
+    color: green;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .blue {
+    color: blue;
+  }

@@ -1,9 +1,7 @@
-.daiktas-container {
-  width: 80%;
+.spalva-container{
+    width: 80%;
   margin: auto;
   background-color: #87ceeb;
-}
-
-.daiktas {
   color: black;
+    text-align: center;
 }
